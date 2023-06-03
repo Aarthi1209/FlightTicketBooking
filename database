@@ -1,0 +1,16 @@
+create database flight ;
+
+create table login(username varchar(25), password varchar(25),loginas varchar(10));
+insert into signup values('Admin','admin','Admin','12345');
+
+create table signup(role varchar(25),username varchar(25),name varchar(25), password varchar(25));
+
+select * from signup;
+
+select * from login;
+
+create table addflight(flightnumber varchar(25),arrivalplace varchar(20),depatureplace varchar(20),date varchar(20),time varchar(10),price varchar(10));
+select * from addflight;
+
+create table booking(name varchar(20),customerid varchar(20),flightnumber varchar(25),arrivalplace varchar(20),depatureplace varchar(20),date varchar(20),time varchar(10),price varchar(10));
+select * from booking;
