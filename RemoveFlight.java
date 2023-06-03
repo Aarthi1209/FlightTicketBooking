@@ -1,6 +1,6 @@
 
 package flight;
-import hotel.management.system.Reception;
+
 import java.awt.BorderLayout;
 import java.awt.*;
 import java.awt.EventQueue;
