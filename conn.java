@@ -13,7 +13,7 @@ public class conn{
     public conn(){  
         try{            
             Class.forName("com.mysql.cj.jdbc.Driver");
-            String url="jdbc:mysql://localhost:3306/hotelmanagementsystem"; 
+            String url="jdbc:mysql://localhost:3306/flight"; 
             c =DriverManager.getConnection("jdbc:mysql:///flight","root","Aarthipoornimaa51827");             
             s =c.createStatement();  
         }catch(Exception e){ 
